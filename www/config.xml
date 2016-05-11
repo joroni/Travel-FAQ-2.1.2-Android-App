@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ko.travelfaq" versionCode="22" version="2.1.2">
 	<!-- versionCode is optional and Android only -->
 	<name>Travel FAQ</name>
-	<description>TCCC Travel FAQ app</description>
+	<description>TCCC Travel FAQ app for Android</description>
 	
     <author href="http://icokecontent.chinacloudapp.cn" email="support@chinacloudapp.com">GSS Manila COE</author>
     <preference name="permissions" value="none" />
