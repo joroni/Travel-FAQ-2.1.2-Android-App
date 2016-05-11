@@ -69,7 +69,7 @@
     	<splash src="res/screen/android/splash-xhdpi-portrait.png" density="port-xhdpi"/>
 	</platform>
 
-
+	<preference name="SplashScreenDelay" value="10000" />
 
 	<icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
 	<icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
@@ -110,6 +110,6 @@
 		<allow-intent href="itms:*" />
 		<allow-intent href="itms-apps:*" />
 	</platform>
-	<preference name="SplashScreen" value="screen" />
-	<preference name="SplashScreenDelay" value="100000000" />
+	<!--<preference name="SplashScreen" value="screen" />
+	<preference name="SplashScreenDelay" value="100000000" />-->
 </widget>
