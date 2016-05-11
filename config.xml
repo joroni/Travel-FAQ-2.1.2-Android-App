@@ -58,10 +58,10 @@
 
 	<platform name="android">
     	<!-- you can use any density that exists in the Android project -->
-    	<splash src="res/screen/android/screen-hdpi-landscape.png" density="land-hdpi"/>
-    	<splash src="res/screen/android/splash-ldpi-landscape.png" density="land-ldpi"/>
-    	<splash src="res/screen/android/splash-mdpi-landscape.png" density="land-mdpi"/>
-    	<splash src="res/screen/android/splash-xhdpi-landscape.png" density="land-xhdpi"/>
+    	<splash src="www/res/screen/android/screen-hdpi-landscape.png" density="land-hdpi"/>
+    	<splash src="www/res/screen/android/splash-ldpi-landscape.png" density="land-ldpi"/>
+    	<splash src="www/res/screen/android/splash-mdpi-landscape.png" density="land-mdpi"/>
+    	<splash src="www/res/screen/android/splash-xhdpi-landscape.png" density="land-xhdpi"/>
  
     	<splash src="res/screen/android/screen-hdpi-portrait.png" density="port-hdpi"/>
     	<splash src="res/screen/android/splash-ldpi-portrait.png" density="port-ldpi"/>
