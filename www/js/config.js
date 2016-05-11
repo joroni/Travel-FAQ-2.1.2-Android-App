@@ -23,7 +23,7 @@ config.checkTabletMode = function() {
 }
 
 config.appTitle = "Travel FAQ";
-config.appInternalVersion = "2.1.2";
+config.appInternalVersion = "2.1";
 config.tabletMode = config.checkTabletMode();//config.getDeviceType();
 config.defaultCountryCode = 'CN';
 config.updateAvailableMessage = 'New version of data is available for download.\n\nKindly sync with server to get the latest Travel FAQ data.';
@@ -54,7 +54,6 @@ config.mapCoords2Key = '<latlng_2>';
 config.defaultIconPath = 'images/icons/default.png';
 config.localImageFolderPath = 'flags';
 config.localImageFolderPath2 = 'images/icons/flags'; /* HACK localized for sidebar */
-//config.localImageFolderPath2 = 'images/icons/flags'; /* HACK localized for sidebar */
 config.fileSystemRootFolder = '';
 
 

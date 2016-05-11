@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ko.travelfaq" versionCode="22" version="2.1.2">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ko.travelfaq" versionCode="10" version="2.1.0">
 	<!-- versionCode is optional and Android only -->
 	<name>Travel FAQ</name>
-	<description>TCCC Travel FAQ app for Android</description>
+	<description>TCCC Travel FAQ app</description>
 	
-    <author href="http://icokecontent.chinacloudapp.cn" email="support@chinacloudapp.com">GSS Manila COE</author>
+    <author email="" href="http://phonegap.com">GSS Manila COE</author>
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="3.4.0" />
     <preference name="orientation" value="default" />
@@ -109,17 +109,7 @@
      </platform>	
 	 
     <access origin="*" />
-	 
-	   <plugin name="cordova-plugin-whitelist" version="1"/>
-	<allow-intent href="http://*/*" />
-	<allow-intent href="https://*/*" />
-	<allow-intent href="tel:*" />
-	<allow-intent href="sms:*" />
-	<allow-intent href="mailto:*" />
-	<allow-intent href="geo:*" />
-	<platform name="android">
-		<allow-intent href="market:*" />
-	</platform>
+	 <plugin name="cordova-plugin-whitelist" version="1"/>
 	
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenDelay" value="100000000" />		
